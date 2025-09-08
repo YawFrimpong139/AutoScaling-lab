@@ -348,6 +348,7 @@ Resources:
                   - autoscaling:*
                   - cloudwatch:*
                   - iam:PassRole
+                  - iam:GetRole
                 Resource: "*"
               - Effect: Allow
                 Action:
