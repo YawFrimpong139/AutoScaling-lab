@@ -1,0 +1,3 @@
+template-file-path: AutoScaling-cfn.yaml
+parameters: {}
+tags: {}
