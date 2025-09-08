@@ -349,6 +349,11 @@ Resources:
                   - cloudwatch:*
                   - iam:PassRole
                 Resource: "*"
+              - Effect: Allow
+                Action:
+                  - ssm:GetParameter
+                  - ssm:GetParameters
+                Resource: "arn:aws:ssm:eu-central-1::parameter/aws/service/ami-amazon-linux-latest/*"
 
 Outputs:
   AlbDnsName:
